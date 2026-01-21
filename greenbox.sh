@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-set -euo pipefail
+
+# uncomment this line if you want to chmod it
+#set -euo pipefail
 
 REPO="$HOME/path/to/repo"
-BRANCH="mian"
+BRANCH="main"
 FILE="greenbox.txt"
 
 cd "$REPO"
